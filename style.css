@@ -1,0 +1,304 @@
+body {
+  display: flex;
+  margin: 0px;
+  height: 1000px;
+}
+
+aside {
+  width: 250px;
+  min-width: 250px;
+  background-color: #fafefd;
+}
+
+.picture {
+  margin-top: 50px;
+  text-align: center;
+}
+
+img {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  border: 1px #6060cd solid;
+}
+
+.profile {
+  text-align: center;
+  color: hsl(211, 57%, 82%);
+}
+
+.profile>h3 {
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+
+.profile>span {
+  margin-top: 0px;
+  font-size: 0.9em;
+}
+
+.menu {
+  text-align: center;
+}
+
+.menu>ul {
+  padding: 0;
+}
+
+ul>li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+li>a {
+  text-decoration: none;
+  color: #65e0b7;
+}
+
+a:hover {
+  color: #6060cd;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  white-space: break-spaces;
+  color: #b3b7bb;
+  margin-left: 20px;
+}
+
+main {
+  margin-left: 100px;
+  display: flex;
+  flex-grow: 1;
+}
+
+.main-home {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_f4WYu1DIauF099Klwa01y5grWYQnrBYZ5g&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: 350px;
+  background-position: right bottom;
+}
+
+div>h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero {
+  width: 200px;
+  align-self: center;
+}
+
+span>a,
+profile>span {
+  text-decoration: none;
+  color: #b3b7bb;
+}
+
+button {
+  margin: 10px 0;
+}
+
+.container {
+  width: 90%;
+  margin-top: 220px;
+}
+
+
+.profile-detail {
+  margin-top: 50px;
+}
+
+.profile-detail>p {
+  color: #b3b7bb;
+}
+
+p>span {
+  color: black;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+
+}
+
+.skill>div {
+  width: 150px;
+  height: 100px;
+  border-style: outset;
+}
+
+.graphic,
+.web,
+.sof,
+.application {
+  margin: 25px 0 0 15px;
+}
+
+.menu-graphic {
+  border-color: f9bf3f;
+}
+
+.graphic {
+  color: #f9bf3f;
+}
+
+.menu-web {
+  border-color: aqua;
+}
+
+.web {
+  color: aqua;
+}
+
+.menu-sof {
+  border-color: gray;
+}
+
+.sof {
+  color: gray;
+}
+
+.menu-application {
+  border-color: #5124d9;
+}
+
+.application {
+  color: #5124d9;
+}
+
+.hero-footer {
+  font-size: 30px;
+  padding: 10px 30px;
+}
+
+.hero-footer,
+.hero-footer>button {
+  background-color: #f9bf3f;
+}
+
+.hero-footer>p {
+  margin: 20px 0;
+}
+
+.hero-footer>button {
+  color: red;
+  font-size: 14px;
+  border: solid 1px;
+}
+
+.hero-contact {
+  margin-top: 70px;
+}
+
+.hero-subject>span {
+  font-size: 12px;
+}
+
+.hero-subject,
+.hero-container {
+  letter-spacing: 5px;
+}
+
+.contact {
+  display: flex;
+  margin-top: 50px;
+}
+
+.email,
+.phone {
+  color: #9471ff;
+}
+
+.info-address {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.info-address>div {
+  width: 350px;
+}
+
+
+.email,
+.address,
+.phone {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.email>per,
+.address>per,
+.phone>per {
+  margin: 25px 30px;
+}
+
+.email>div,
+.address>div,
+.phone>div {
+  background-color: #dfe3e2;
+  width: 90px;
+  min-width: 90px;
+  height: 80px;
+  min-height: 80px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 70px;
+}
+
+form>input,
+form>textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border-style: none;
+  background-color: #e8eded;
+}
+
+form>textarea {
+  height: 100px;
+}
+
+form>button {
+  background-color: #6060cd;
+  color: white;
+  border-style: none;
+  padding: 10px 12px;
+}
+
+.mount {
+  margin-top: 70px;
+}
+
+th {
+  height: 50px;
+  font-size: 30px;
+}
+
+.week>td {
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+.mount,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  width: 70px;
+  height: 70px;
+  vertical-align: baseline;
+  padding-top: 2px;
+  padding-left: 2px;
+}
