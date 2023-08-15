@@ -1,0 +1,127 @@
+body {
+  display: flex;
+  margin: 0;
+}
+
+aside {
+  width: 250px;
+  min-width: 250px;
+  background-color: #f3e5e5;
+  text-align: center;
+}
+
+img {
+  border: 1px solid #a8a8a4;
+  border-radius: 100%;
+  width: 200px;
+  margin-top: 50px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul>li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #a8a8a4;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #2179dd;
+}
+
+footer {
+  margin: 0 30px;
+}
+
+.about>p {
+  font-size: 10px;
+}
+
+.about>h3,
+.about>p {
+  letter-spacing: 5px;
+}
+
+.main-about {
+  margin: 230px 60px 50px 50px;
+  width: auto;
+}
+
+.detail {
+  margin-top: 50px;
+}
+
+.detail>p,
+.about>p {
+  color: #c7c4c1;
+}
+
+p>span {
+  color: black;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.graphic,
+.web,
+.sofware,
+.application {
+  border-style: outset;
+  width: 150px;
+  height: 150px;
+}
+
+.graphic {
+  border-color: #b27be4;
+}
+
+.web {
+  border-color: rgb(229, 124, 124);
+}
+
+.sofware {
+  border-color: rgb(255, 255, 105);
+}
+
+.application {
+  border-color: #b2dbfd;
+}
+
+.graphic>div,
+.web>div,
+.sofware>div,
+.application>div {
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+.performent,
+button {
+  background-color: f9bf3f;
+}
+
+.performent>p {
+  padding-top: 25px;
+  padding-left: 20px;
+  font-size: 30px;
+}
+
+.performent>button {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: red;
+  font-size: 12px;
+  border-color: red;
+}
